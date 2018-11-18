@@ -15,7 +15,7 @@ li{
 }
 
 body{
-  width: 100%;
+  width: 100vw;
   height: 100vh;
 }
 main{
@@ -89,6 +89,17 @@ block > ul{
 
 .page-main{
   height: 100%;
-  width: 50%;
+  width: 50vw;
   margin: 0 auto;
+}
+
+.mapWrap{
+  width: 50vw;
+  height: 600px;
+  margin: 35px auto;
+}
+
+.map{
+  width: 50vw;
+  height: 500px;
 }
